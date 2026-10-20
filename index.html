@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' fill='%23ed4f0a'/><path d='M5 7h14v3H5zm0 7h10v3H5z' fill='%2317191a'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>AURA ONE — Premium wireless headphones</title>
+    <meta name="description" content="AURA ONE premium wireless headphones with rich sound, adaptive noise cancelling and all-day comfort." />
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      /* Ensure zero white flicker on loading */
+      html, body {
+        background-color: #e8ebee;
+        color: #17191a;
+        overflow-x: hidden;
+      }
+      ::selection {
+        background: #ed4f0a;
+        color: #17191a;
+      }
+      /* Custom smooth scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #e8ebee;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #17191a;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ed4f0a;
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
